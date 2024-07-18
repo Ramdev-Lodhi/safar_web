@@ -25,7 +25,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0;
+      padding-left: 15px;
     }
     .card-header {
       display: flex;
@@ -55,6 +55,7 @@
         max-width: 100%;
       }
     }
+    
   </style>
 </head>
 <!-- Sidebar  -->
@@ -103,7 +104,7 @@ if (!empty($rawmaterial)) {
     <div class="row column1">
       <div class="col-lg-4">
         <div class="white_shd full margin_bottom_30">
-          <div class="full graph_head">
+          <div class="full graph_head ">
             <div class="heading1 margin_0">
               <h5 >STOCK IN GODOWN (FIRST Quality) -
                 <?php
@@ -180,8 +181,8 @@ if (!empty($rawmaterial)) {
         <div class="white_shd full margin_bottom_30">
           <div class="full graph_head">
             <div class="heading1 margin_0">
-              <h5 >JOB SHEET & PAYMENT STATUS - &emsp;
-                <?php
+              <h5 >JOB SHEET & PAYMENT STATUS -&nbsp;
+              <?php
                 $count = 0;
                 foreach ($job as $j) {
                   $count++;

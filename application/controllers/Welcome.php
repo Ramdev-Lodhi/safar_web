@@ -114,6 +114,8 @@ class Welcome extends CI_Controller
 			}
 			$i++;
 		}
+		print_r($godown_stock);
+		die();
 		echo json_encode($godown_stock);
 	}
 }
